@@ -1,0 +1,71 @@
+
+html, body, :global(#root) {
+  height: 100%;
+}
+
+body :global .ant-table-thead > tr > th, body :global .ant-table-tbody > tr > td {
+  font-family: PingFangSC-Semibold;
+  font-size: 14px;
+  color: #5F5F5F;
+  letter-spacing: 0;
+  line-height: 18px;
+  padding: 20px 0;
+  background: #fff;
+  text-align: center;
+  border-bottom: 1px solid #F7F7F7;
+}
+
+body :global .ant-table-tbody > tr > td {
+  padding: 40px 0;
+}
+
+body :global .ant-table-tbody tr:nth-of-type(2n) td{
+  background: #F9F9F9;
+}
+
+body :global .ant-table-tbody tr:hover td{
+  background: #F0F7FE;
+}
+
+body :global .ant-menu {
+  background: transparent;
+  margin-top: 30px;
+}
+
+body :global .ant-menu li{
+  margin-bottom: 10px;
+  outline: none;
+}
+
+body :global .ant-menu .ant-menu-item > a {
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  font-weight: 300;
+}
+
+body :global .ant-menu .ant-menu-item > a i{
+  padding: 8px;
+  background: transparent;
+  border-radius: 30px;
+  font-size: 15px;
+}
+
+body :global .ant-menu-inline, body :global .ant-menu-vertical {
+  border-right: none;
+}
+
+body :global .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background: transparent;
+}
+
+
+body :global .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected i{
+  background: #FFFFFF;
+  color: #5F5F5F;
+}
+
+body :global .ant-menu-item:active, body :global .ant-menu-submenu-title:active {
+  background: transparent;
+}

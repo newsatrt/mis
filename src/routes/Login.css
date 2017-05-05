@@ -1,0 +1,148 @@
+
+.normal {
+  height: 100%;
+  width: 100%;
+  background: url('../assets/bg.png') no-repeat 0 0/cover;
+}
+
+.normal h1 {
+  font-family: PingFangSC-Regular;
+  font-size: 48px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  padding: 120px 0 10px;
+  margin: 0;
+  text-align: center;
+  font-weight: 200;
+}
+
+.normal h3 {
+  font-family: PingFangSC-Regular;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  font-weight: 200;
+  text-align: center;
+}
+
+.normal form {
+  width: 50%;
+  margin: 50px auto 0;
+  background: #FAFAFA;
+  padding: 30px;
+  border-radius: 10px;
+  min-width: 300px;
+  max-width: 700px;
+}
+
+.normal form :global .ant-form-item {
+  width: 305px;
+  margin: 0 auto 15px;
+}
+
+.normal form :global .ant-form-item input {
+  height: 40px;
+  background: #F2F2F2;
+  border: 1px solid #E0E0E0;
+  padding-left: 38px !important;
+  font-family: PingFangSC-Regular;
+  font-size: 16px;
+  color: #4A4A4A;
+  letter-spacing: 0;
+}
+
+.normal form :global .ant-form-item input:focus {
+  border: 1px solid #81B9FB !important;
+  outline: none;
+  box-shadow: none;
+}
+
+
+
+.normal form i {
+  color: #4A4A4A;
+}
+
+.normal form :global .ant-input-prefix {
+  left: 14px;
+}
+
+.title {
+  font-family: PingFangSC-Regular;
+  font-size: 20px;
+  color: #4A4A4A;
+  letter-spacing: 0;
+  text-align: center;
+  padding: 30px 0 20px;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  background: #5F5F5F;
+  position: fixed;
+  bottom: 0;
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+
+.copyright {
+  width: 50%;
+  display: inline-block;
+  padding-top: 45px;
+  text-align: center;
+}
+
+.copyright div {
+  padding-bottom: 10px;
+}
+
+.qq {
+  width: 50%;
+  display: inline-block;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.normal form button{
+  background-image: linear-gradient(90deg, #5C88DB 0%, #3F69B9 100%);
+  border-radius: 44px;
+  font-family: PingFangSC-Regular;
+  font-size: 16px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  width: 180px;
+  height: 40px;
+  display: block;
+  margin: 10px auto 40px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.normal form button:hover {
+  background-image: linear-gradient(90deg, #5C88DB 0%, #3F69B9 100%);
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: #FFFFFF;
+}
+
+.normal form button:active,.normal form button:focus {
+  background-image: linear-gradient(90deg, #5C88DB 0%, #3F69B9 100%);
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: #FFFFFF;
+}
+
+.normal .qqIcon {
+  background: url('../assets/qq.png') no-repeat 0 0/contain;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-right: -50px;
+  margin-bottom: 10px;
+}
