@@ -1,0 +1,64 @@
+.wrapper {
+  background: #FFFFFF;
+  border: 1px solid #F7F7F7;
+  padding: 20px;
+}
+
+.clock {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 2px solid #9B9B9B;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.chinaClock {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 2px solid #FF7171;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.amText {
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #9B9B9B;
+  letter-spacing: 0;
+  line-height: 20px;
+  padding-top: 50px;
+}
+
+.timeText {
+  font-family: PingFangSC-Regular;
+  font-size: 30px;
+  color: #9B9B9B;
+  letter-spacing: 0;
+  line-height: 20px;
+  padding-top: 18px;
+}
+
+
+.dateText {
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #9B9B9B;
+  letter-spacing: 0;
+  line-height: 20px;
+  padding-top: 15px;
+}
+
+.title {
+  font-family: PingFangSC-Semibold;
+  font-size: 14px;
+  color: #4A4A4A;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: 15px;
+}
+
+.title i {
+  margin-right: 10px;
+}

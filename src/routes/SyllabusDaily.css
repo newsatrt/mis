@@ -1,0 +1,55 @@
+.wrapper {
+
+}
+
+.clockBlock {
+  display: inline-block;
+  width: 49%;
+}
+
+.clockBlock:first-child {
+  margin-right: 2%;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header .title {
+  font-family: PingFangSC-Semibold;
+  font-size: 20px;
+  color: #5F5F5F;
+  letter-spacing: 0;
+  line-height: 18px;
+  padding: 10px 0;
+  display: inline-block;
+}
+
+.header :global .ant-input-affix-wrapper i {
+  color: #D8D8D8;
+  font-size: 22px;
+}
+
+.header :global .ant-input-affix-wrapper .ant-input-prefix {
+  left: 10px;
+}
+
+.header img {
+  float: right;
+  margin-left: 20px;
+}
+
+.table {
+  background: #fff;
+  margin-top: 20px;
+}
+
+.enterBtn {
+  background: #3F69BA;
+  border-radius: 73px;
+  padding: 8px 15px;
+  font-family: PingFangSC-Semibold;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}

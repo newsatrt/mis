@@ -1,0 +1,100 @@
+.wrapper {
+
+}
+
+.clockBlock {
+  display: inline-block;
+  width: 49%;
+}
+
+.clockBlock:first-child {
+  margin-right: 2%;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header .title {
+  font-family: PingFangSC-Semibold;
+  font-size: 20px;
+  color: #5F5F5F;
+  letter-spacing: 0;
+  line-height: 18px;
+  padding: 10px 0;
+  display: inline-block;
+}
+
+.header :global .ant-input-affix-wrapper {
+  width: 225px;
+  height: 40px;
+  float: right;
+}
+
+.header :global .ant-input-affix-wrapper input {
+  background: #FFFFFF;
+  border-radius: 73px;
+  width: 225px;
+  height: 40px;
+  border: none;
+  padding-left: 40px !important;
+  font-size: 18px;
+}
+
+.header :global .ant-input-affix-wrapper input:hover, .header :global .ant-input-affix-wrapper input:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.header :global .ant-input-affix-wrapper i {
+  color: #D8D8D8;
+  font-size: 22px;
+}
+
+.header :global .ant-input-affix-wrapper .ant-input-prefix {
+  left: 10px;
+}
+
+.header img {
+  float: right;
+  margin-left: 20px;
+}
+
+.table {
+  background: #fff;
+  margin-top: 20px;
+}
+
+.operation {
+  padding: 20px 25px;
+  text-align: center;
+  border-bottom: 1px solid #F7F7F7;
+}
+.operation a {
+  border: 1px solid #3F69BA;
+  border-radius: 73px;
+  padding: 8px 15px;
+  display: inline-block;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #3F69BA;
+  letter-spacing: 0;
+}
+
+.operation span {
+  font-family: PingFangSC-Regular;
+  font-size: 18px;
+  color: #3F69BA;
+  letter-spacing: 0;
+  padding: 5px 0;
+  display: inline-block;
+}
+
+.last {
+  float: left;
+}
+
+.next {
+  float: right;
+}

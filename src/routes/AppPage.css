@@ -1,0 +1,39 @@
+.wrapper {
+  height: 100%;
+}
+
+.sider {
+  background: #2C5096;
+}
+
+.main {
+  background: #F6F6F6;
+  padding: 20px 40px;
+}
+
+.logo {
+  background: url('../assets/NewLogo2.png') no-repeat 0 0/contain;
+  width: 93px;
+  height: 34px;
+  margin: 34px auto;
+}
+
+.user {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.user img {
+  border-radius: 30px;
+}
+
+.user .name {
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  padding-top: 5px;
+}
+/*.ant-layout-sider {
+
+}*/
